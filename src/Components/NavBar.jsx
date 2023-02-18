@@ -1,13 +1,25 @@
 import React from 'react'
-import Logo  from '../download.png';
+import Logo  from '../movieslogos.png';
 
 function NavBar() {
   return (
-    <div>
-        <img src={Logo} alt="" />
-        <h3>Movies</h3>
-        <h3>Favourites</h3>
-    </div>
+    
+    <div className = "border
+    flex items-center
+    space-x-8
+    pl-3 py-4 
+    ">
+        <img src={Logo}  className = "w-[50px]"  alt=""/> 
+        <><h3 className='font-bold
+        text-xl 
+        text-slate-400
+        '>Movies</h3>
+        <h3 className='font-bold
+        text-xl
+        text-slate-400'>Favourites</h3></>
+    </div> 
+    
+    
   )
 }
 
