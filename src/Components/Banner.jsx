@@ -6,12 +6,22 @@ function Banner() {
   return (
    <>
    <img src={image} alt=''/>
-   <div className='banner-header
-   bg-gray-800
+   <div className = "banner-header
+   h-10">
+   
+   
+   <div className="bg-gray-800
    text-white
-   text-xl
+   text-2xl
+   font-bold
    pt-1
-   bg-opacity-40'>JOHN 4 WICK</div>
+   bg-opacity-40
+   text-center
+    
+   ">JOHN 4 WICK</div>
+
+   </div>
+   
 
    </>
   )
