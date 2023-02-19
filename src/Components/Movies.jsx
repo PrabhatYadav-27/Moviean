@@ -3,7 +3,7 @@ import image from './banner.jpg';
 
 function movies() {
   return (
-    <div className="-mt-3">
+    <div className="mt-4">
         <div
         className="mb-6
         font-bold
