@@ -23,12 +23,13 @@ function Banner() {
    </div> */}
    {/* learning to add cover via tailwind */}
    <div 
-   className="bg-banner h-[70vh]
+   className="bg-banner h-[60vh] md:h[80vh]
    bg-center
    bg-cover
    flex items-end">
     <div
     className="text-xl
+    md:text-3xl
     p-2
     text-white
     bg-gray-600
