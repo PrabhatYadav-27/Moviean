@@ -1,5 +1,6 @@
 import React,{useEffect,useState}from 'react';
 import axios from 'axios';
+import {Oval} from 'react-loader-spinner';
 
 
 
@@ -25,7 +26,19 @@ function Banner() {
   return (
    <>
    {
-    bannerMovie == ""?<h1>Loading</h1> :
+    bannerMovie == ""?
+    <div  className="
+    flex justify-center">
+          <Oval
+        height ="80"
+        width="80"
+        radius = "9"
+        color="black"
+        secondaryColor='gray'
+        ariaLabel="loading"
+        wrapperStyle
+        wrapperClass  />
+    </div> :
 
         <div 
       className="
