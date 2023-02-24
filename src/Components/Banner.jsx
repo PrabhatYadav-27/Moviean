@@ -42,7 +42,7 @@ function Banner() {
 
         <div 
       className="
-      h-[80vh] md:h[60vh]
+      h-[70vh] md:h[50vh]
       bg-center
       bg-cover
       flex items-end"
