@@ -1,7 +1,9 @@
-import React from 'react'
-// import image from './banner.jpg';
+import React from 'react';
+import axios from "axios";
 
 function movies() {
+
+  
   return (
     <div className="mt-4 ">
         <div
