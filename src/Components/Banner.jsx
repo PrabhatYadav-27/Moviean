@@ -12,7 +12,7 @@ function Banner() {
     {
       axios.get("https://api.themoviedb.org/3/trending/all/day?api_key=fc1050b6a109c08dfcff59b860c309cb")
   .then((res)=>{
-    console.table(res.data.results);
+    // console.table(res.data.results);
     setBanner(res.data.results[0]);
 
 

@@ -17,8 +17,9 @@ function App() {
       <Route path ="/" element = {
         <>
          <Banner></Banner>
-        <Movies></Movies>
-        <Pagination></Pagination>
+         <Movies></Movies>
+         
+        
         </>
       }></Route>
       <Route path="/fav" element = {
