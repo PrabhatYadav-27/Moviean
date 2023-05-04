@@ -202,7 +202,7 @@ function Favourites() {
           </tbody>
         </table>
       </div>
-      <Pagination></Pagination>
+      
     </>
   )
 }
